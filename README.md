@@ -26,7 +26,7 @@ install, for example using [straight.el](https://github.com/radian-software/stra
 
 open a .strudel file, or do `M-x strudel-mode` manually. then do `M-x strudel-start` (or if using the key bindings above press `C-c C-s`). this starts the websocket server.
 
-in your browser, open Strudel. you will probably need to run a local build (or mess with browser security settings - bad idea) for the browser to allow connecting to the websocket on localhost.
+in your browser, open Strudel. you will probably need to run a [local build](https://github.com/tidalcycles/strudel/?tab=readme-ov-file#running-locally) (or mess with browser security settings - bad idea) for the browser to allow connecting to the websocket on localhost.
 
 evaluate the following code in the Strudel repl:
 
