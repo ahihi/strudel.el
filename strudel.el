@@ -41,8 +41,9 @@
 (defun strudel-mode-if-appropriate ()
   "Enable strudel-mode if appropriate for the current buffer, i.e. its buffer-file-name has the extension `.strudel'."
   (interactive)
-  (when (string-match-p "\.strudel$" buffer-file-name)
-    (strudel-mode t)))
+  (and buffer-file-name
+       (string-match-p "\.strudel$" buffer-file-name)
+       (strudel-mode t)))
 
 (defun strudel-start ()
   "Start strudel."
