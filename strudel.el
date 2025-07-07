@@ -1,10 +1,12 @@
 ;;; strudel.el --- Interact with strudel for livecoding music  -*- lexical-binding: t; -*-
 
+;; Package-Requires: (cl-lib pulse websocket)
+
 ;;; Commentary:
 
 ;;; Code:
 
-(require 'cl)
+(require 'cl-lib)
 (require 'comint)
 (require 'pulse)
 
