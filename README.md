@@ -1,5 +1,8 @@
 # strudel.el
 
+> [!IMPORTANT]  
+> moved to https://codeberg.org/pulu/strudel.el
+
 proof-of-concept Strudel mode for Emacs. runs a websocket server through which code is sent to Strudel.
 
 ## usage
